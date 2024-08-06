@@ -1,0 +1,10 @@
+folder - path
+underscore - emit the folder
+() - organizational
+
+by default all are server side
+
+can use useffect etc by doing "use client" (parents should be client components)
+
+any server component can do async funcitons.
+fetch data from db and then return it to a client component
