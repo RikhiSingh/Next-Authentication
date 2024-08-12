@@ -17,10 +17,10 @@ export default function Home() {
           "text-6xl font-semibold text-white drop-shadow-md",
           font.className,
         )}>
-          Tenantrio
+          Rikhi :0
         </h1>
         <p className='text-white text-lg'>
-          Tenantrio slogan or whatever
+          Rikhi's :0 slogan or whatever
         </p>
         <div>
           <LoginButton>
