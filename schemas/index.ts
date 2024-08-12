@@ -6,7 +6,20 @@ export const LoginSchema = z.object({
         // TODO add exclusive zod messages
         message: "Entered Email is invalid"
     }),
-    password: z.string().min(1,{
-        message:"Password is reqired"
+    password: z.string().min(1, {
+        message: "Password is reqired"
+    }),
+});
+
+export const RegisterSchema = z.object({
+    email: z.string().email({
+        // TODO add exclusive zod messages
+        message: "Entered Email is invalid"
+    }),
+    password: z.string().min(8, {
+        message: "Minimum 8 characters are required"
+    }),
+    name: z.string().min(1, {
+        message: "Name is required",
     }),
 });
