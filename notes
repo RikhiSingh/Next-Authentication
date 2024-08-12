@@ -8,3 +8,5 @@ can use useffect etc by doing "use client" (parents should be client components)
 
 any server component can do async funcitons.
 fetch data from db and then return it to a client component
+
+for unix systems openssl rand -hex 32 works to generate a AUTH_SECRET
